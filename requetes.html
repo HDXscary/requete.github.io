@@ -17,5 +17,26 @@
     </nav>
 
     <main>
-        <h1>Comment puis-je t'aider ?</h1>
+        <h1 id="titre1">Comment puis-je t'aider ?</h1>
+
+        <div class="content" style="max-width: 600px;">
+            <p class="formulaire">formulaire pour votre requete</p>
+            <form id="requeteform">
+                <div class="form-group">
+                    <label for="name">prenom *</label>
+                    <input type="text" id="name" name="name" placeholder="Votre prenom" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" placeholder="votre.email@exemple.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="requete">requete *</label>
+                    <textarea id="message" name="message" placeholder="Votre requete..." required></textarea>
+                </div>
+            </form>
+        </div>
+
     </main>

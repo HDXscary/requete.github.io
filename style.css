@@ -62,3 +62,69 @@ h2{
 p{
     font-size: 20px;
 }
+
+
+
+
+#titre1{
+    margin:60px auto;
+    width: 50%;
+    height: 10%;
+    padding: 20px;
+    background: #130f40;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #00d9ff4d;
+}
+
+.content{
+    margin:70px auto;
+    width: 50%;
+    height: 10%;
+    padding: 20px;
+    background: #130f40;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #00d9ff4d;
+    align-items: center;
+    text-align: center;
+    color: #00d9ff;
+}
+.form-group label{
+    display: block;
+    margin-bottom: 20px;
+}
+.form-group{
+    margin:40px auto;
+    width: 50%;
+    height: 10%;
+    padding: 20px;
+    background: #130f40;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #00d9ff4d;
+    align-items: center;
+    color: #00d9ff;
+}
+
+.formulaire{
+    margin:40px auto;
+    width: 50%;
+    height: 10%;
+    padding: 20px;
+    background: #130f40;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #00d9ff4d;
+    align-items: center;
+    color: #00d9ff;
+}
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 15px;
+    background: rgba(0, 217, 255, 0.05);
+    border: 2px solid #00d9ff;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Arial', sans-serif;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 217, 255, 0.2);
+    box-sizing: border-box;
+}
