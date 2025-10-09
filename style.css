@@ -118,13 +118,25 @@ p{
 .form-group input, .form-group textarea {
     width: 100%;
     padding: 15px;
-    background: rgba(0, 217, 255, 0.05);
+    background: #110c4d;
     border: 2px solid #00d9ff;
     border-radius: 8px;
     color: #fff;
     font-size: 1rem;
     font-family: 'Arial', sans-serif;
     transition: all 0.3s ease;
-    box-shadow: 0 0 10px rgba(0, 217, 255, 0.2);
+    box-shadow: 0 0 10px #00d9ff4d;
     box-sizing: border-box;
+}
+
+button{
+    margin-left: 60%;
+    width: 30%;
+    padding: 15px;
+    border-radius: 20px;
+    border: 2px solid #00d9ff;
+    background: #110c4d;
+    color: #00d9ff;
+    box-sizing: border-box;
+    overflow: auto;
 }
